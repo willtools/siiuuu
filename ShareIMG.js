@@ -32,7 +32,7 @@ var linkimgj = imgurlsj[randomj];
 var rest = [linkimga,linkimgb,linkimgc,linkimgd,linkimge,linkimgf,linkimgg,linkimgh,linkimgi,linkimgj];
 var randrest = Math.floor(Math.random() * rest.length);
 var branch_key_result = rest[randrest];
-document.getElementById("result").innerHTML=branch_key_result;
+document.getElementById("result").value = branch_key_result;
 }
 function copy(){
 document.getElementById("result").select(),
